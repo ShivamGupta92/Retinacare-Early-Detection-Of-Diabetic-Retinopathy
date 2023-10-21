@@ -26,10 +26,14 @@ Our model provides:
 # Model Working
 ![image](https://github.com/ShivamGupta92/Retinacare/assets/70855458/66cc7fed-6059-49e0-94c1-d8dc805ccc4d)
 
+
+https://github.com/ShivamGupta92/Retinacare/assets/70855458/0ebcc8e0-45cc-4415-9a5b-5d44b820b035
+
 **How It Addresses Real-World Problems:**
 - Non-invasive, accessible eye health assessment.
 - Timely intervention to reduce vision loss risk.
 - Aiding both patients and healthcare professionals.
+
 
 **Motivation:**
 We're motivated by the desire to improve public health, especially for those with diabetes, and to combat vision loss due to diabetic retinopathy.

@@ -48,8 +48,8 @@ We're motivated by the desire to improve public health, especially for those wit
 **Tech Stack:**
 - Frontend: HTML, CSS, JavaScript
 - Backend: Python, Flask
-- Machine Learning: PyTorch, Scikit-Learn
-- Deployment: Docker, Heroku
+- Machine Learning: Inception ResNet V2, PyTorch, Scikit-Learn, TensorFlow
+- Deployment: Docker, Heroku, Vercel
 
 **Authors:**
 - Shivam Gupta

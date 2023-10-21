@@ -39,6 +39,8 @@ https://github.com/ShivamGupta92/Retinacare/assets/70855458/0ebcc8e0-45cc-4415-9
 - Timely intervention to reduce vision loss risk.
 - Aiding both patients and healthcare professionals.
 
+![image](https://github.com/ShivamGupta92/Retinacare/assets/70855458/c100ec3d-aad9-4661-8f9d-a65ea6806fb1)
+
 
 **Motivation:**
 We're motivated by the desire to improve public health, especially for those with diabetes, and to combat vision loss due to diabetic retinopathy.

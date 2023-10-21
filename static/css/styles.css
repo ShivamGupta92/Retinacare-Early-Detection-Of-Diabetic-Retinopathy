@@ -1,0 +1,129 @@
+body {
+    background-color: #ECF4FD; /* Pale Blue background */
+    color: #333333; /* Dark Gray text color */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    background-color: #F5F5F5; /* Light Gray container background */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #66A3FF; /* Soft Blue text color */
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #66A3FF; /* Soft Blue text color */
+}
+
+#image-preview {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#left-eye-image,
+#right-eye-image {
+    max-width: 100%;
+    height: auto;
+    display: none;
+}
+
+#prediction-result {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    color: #66A3FF; /* Soft Blue text color */
+}
+
+.form-group label {
+    color: #66A3FF; /* Soft Blue text color for labels */
+}
+
+.btn-primary {
+    background-color: #66CC99; /* Calming Green button background color */
+    border-color: #66CC99; /* Calming Green button border color */
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-primary:hover {
+    background-color: #0000FF; /* Blue button background color on hover */
+    border-color: #0000FF; /* Blue button border color on hover */
+}
+
+input[type="file"] {
+    color: #0000FF; /* Blue text color for file input text */
+}
+
+.custom-file-label::after {
+    content: "Browse"; /* Customize the file input browse text */
+    background-color: #66CC99; /* Calming Green button background color */
+}
+
+/* Neon styling for file input text */
+input[type="file"] {
+    border: 2px solid #333333; /* Dark Gray border for file input text */
+    border-radius: 5px;
+    background-color: #F5F5F5; /* Light Gray background for file input text */
+    color: #333333; /* Dark Gray text color for file input text */
+    padding: 5px;
+}
+
+/* Footer styles */
+
+/* Style for the footer */
+footer {
+    position:sticky;
+    bottom: 3px; /* Adjust this value for your preferred vertical position */
+    left: 0;
+    width: 100%;
+    background-color: #535050; /* Change the background to black or your preferred color */
+    color: #060404; /* Change the text color to white or your preferred color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Style the social media links and icons */
+.social-links {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+.social-links li {
+    display: inline;
+    margin-left: 20px; /* Adjust the spacing between links */
+}
+
+.social-links a {
+    color: #0000FF; /* Text color for links */
+    text-decoration: none;
+    font-size: 24px; /* Adjust the icon size */
+}
+
+.social-links a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+#recommendation-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#recommendation {
+    font-size: 18px;
+    color: #333333; /* Dark Gray text color */
+    padding: 10px;
+    background-color: #F5F5F5; /* Light Gray background */
+    border-radius: 10px;
+    width: 100%;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Diabetic Retinopathy Detection</title>
+    
+    <!-- Add CSS links for Bootstrap and custom styles -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <!-- Add links for web icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation Menu -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/test_now">Test Now</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <h1>Diabetic Retinopathy Detection</h1>
+        <h4>RetinaCare</h4>
+
+        <div class="row">
+            <div class="col-md-6">
+                <form action="/predict" method="POST" enctype="multipart/form-data" id="left-eye-form">
+                    <div class="form-group">
+                        <label for="left_eye">Upload Left Eye Image:</label>
+                        <input type="file" name="left_eye" id="left_eye" accept=".jpg, .jpeg, .png" required class="form-control-file">
+                    </div>
+                </form>
+                <img id="left-eye-image" src="" alt="Uploaded Left Eye Image">
+            </div>
+            <div class="col-md-6">
+                <form action="/predict" method="POST" enctype="multipart/form-data" id="right-eye-form">
+                    <div class="form-group">
+                        <label for="right_eye">Upload Right Eye Image:</label>
+                        <input type="file" name="right_eye" id="right_eye" accept=".jpg, .jpeg, .png" required class="form-control-file">
+                    </div>
+                </form>
+                <img id="right-eye-image" src="" alt="Uploaded Right Eye Image">
+            </div>
+        </div>
+
+        <button class="btn btn-primary" id="predict-button">Predict</button>
+        <!-- Display the uploaded images here -->
+        <div id="image-preview">
+            <!-- Images are displayed above within the col-md-6 divs -->
+        </div>
+
+        <div id="prediction-result"></div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <div id="recommendation-container">
+            <marquee id="recommendation" behavior="scroll" direction="left"></marquee>
+        </div>
+        
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                &copy; 2023 RetinaCare by Team-BigFootIsReal. All rights reserved.
+            </div>
+            <div class="col-md-6">
+                <ul class="social-links">
+                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+        
+    </div>
+
+    <!-- JavaScript files at the end of the body for faster page loading -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

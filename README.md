@@ -1,4 +1,9 @@
-# Retinacare
+# BigFootIsReal
+
+<p align="center">
+  <img src="https://github.com/ShivamGupta92/Retinacare/assets/70855458/87563d52-17f8-48bd-b13c-20440bc34a38?raw=true" alt="Sublime's custom image"/>
+</p>
+
 Website URL: https://retinacare.vercel.app/
 # Diabetic Retinopathy Detection (RetinaCare)
 

@@ -7,7 +7,13 @@
 Website URL: https://retinacare.vercel.app/
 # Diabetic Retinopathy Detection (RetinaCare)
 
-**About:**
+# Accuracy
+ ```sh
+Able to achieve a stunning accuracy of 83% With approx 3662 images
+ ```
+all thnx our Image preprocessing Algorithm.
+
+# About
 Diabetic Retinopathy Detection, or RetinaCare, is an AI-driven solution aimed at identifying diabetic retinopathy, a critical complication of diabetes, using retinal images. Our project offers a non-invasive, accessible, and efficient tool to assess the severity of this condition.
 
 

@@ -40,7 +40,7 @@ Our model provides:
 
 https://github.com/ShivamGupta92/Retinacare/assets/70855458/0ebcc8e0-45cc-4415-9a5b-5d44b820b035
 
-**How It Addresses Real-World Problems:**
+## How It Addresses Real-World Problems
 - Non-invasive, accessible eye health assessment.
 - Timely intervention to reduce vision loss risk.
 - Aiding both patients and healthcare professionals.
@@ -48,16 +48,23 @@ https://github.com/ShivamGupta92/Retinacare/assets/70855458/0ebcc8e0-45cc-4415-9
 ![image](https://github.com/ShivamGupta92/Retinacare/assets/70855458/c100ec3d-aad9-4661-8f9d-a65ea6806fb1)
 
 
-**Motivation:**
+## Motivation:
 We're motivated by the desire to improve public health, especially for those with diabetes, and to combat vision loss due to diabetic retinopathy.
 
-**Tech Stack:**
+## Tech Stack:
 - Frontend: HTML, CSS, JavaScript
 - Backend: Python, Flask
 - Machine Learning: Inception ResNet V2, PyTorch, Scikit-Learn, TensorFlow
 - Deployment: Docker, Heroku, Vercel
 
-**Authors:**
-- Shivam Gupta
+## Write Us
 
+If you have any questions or feedback about RetinaCare, reach me out on linkedIn.
+
+## Authors
+
+- [Shivam Gupta](https://www.linkedin.com/in/shivam-gupta-453b13217)
+- Rahul Sharma
+- Sagar Tanuj Battu
+  
 Please reach out to the authors for questions or contributions.

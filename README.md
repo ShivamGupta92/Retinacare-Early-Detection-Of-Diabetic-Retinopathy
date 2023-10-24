@@ -1,6 +1,10 @@
-# BigFootIsReal
 
+<h1>
 <p align="center">
+  BigFootIsReal
+<p align="center">
+</h1>
+
   <img src="https://github.com/ShivamGupta92/Retinacare/assets/70855458/87563d52-17f8-48bd-b13c-20440bc34a38?raw=true" alt="Sublime's custom image"/>
 </p>
 

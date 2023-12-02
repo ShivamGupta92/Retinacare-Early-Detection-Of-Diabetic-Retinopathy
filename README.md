@@ -1,3 +1,4 @@
+![build-passing](https://img.shields.io/badge/build-passing-brightgreen) ![test-passing](https://img.shields.io/badge/test-passing-brightgreen)
 
 <h1>
 <p align="center">

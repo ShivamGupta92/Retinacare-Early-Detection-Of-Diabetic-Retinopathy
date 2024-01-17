@@ -70,5 +70,6 @@ If you have any questions or feedback about RetinaCare, reach me out on linkedIn
 ## Authors
 
 - [Shivam Gupta](https://www.linkedin.com/in/shivam-gupta-453b13217)
+- Rahul Sharma
   
 Please reach out to the authors for questions or contributions.

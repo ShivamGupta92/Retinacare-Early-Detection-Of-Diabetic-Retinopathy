@@ -67,9 +67,9 @@ We're motivated by the desire to improve public health, especially for those wit
 
 If you have any questions or feedback about RetinaCare, reach me out on linkedIn.
 
-## Authors
+## Author
 
 - [Shivam Gupta](https://www.linkedin.com/in/shivam-gupta-453b13217)
-- Rahul Sharma
+
   
 Please reach out to the authors for questions or contributions.

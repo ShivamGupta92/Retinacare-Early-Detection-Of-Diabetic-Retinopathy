@@ -2,22 +2,19 @@
 
 <h1>
 <p align="center">
-  BigFootIsReal
+  RetinaCare
 <p align="center">
 </h1>
 
-<p align="center">
-  <img src="https://github.com/ShivamGupta92/Retinacare/assets/70855458/87563d52-17f8-48bd-b13c-20440bc34a38?raw=true" alt="Sublime's custom image"/>
-</p>
 
 Website URL: https://retinacare.vercel.app/
-# Diabetic Retinopathy Detection (RetinaCare)
+# Early Detection of Diabetic Retinopathy
 
 # Accuracy
  ```sh
-Able to achieve a stunning accuracy of 83% With approx 3662 images
+Able to achieve a stunning accuracy of 93% With approx 3662 images
  ```
-all thnx our Image preprocessing Algorithm.
+
 
 # About
 Diabetic Retinopathy Detection, or RetinaCare, is an AI-driven solution aimed at identifying diabetic retinopathy, a critical complication of diabetes, using retinal images. Our project offers a non-invasive, accessible, and efficient tool to assess the severity of this condition.
@@ -41,9 +38,6 @@ Our model provides:
 ![image](https://github.com/ShivamGupta92/Retinacare/assets/70855458/d9b2c22e-ad91-4557-939f-fe89a4298f16)
 
 # Model Working
-![image](https://github.com/ShivamGupta92/Retinacare/assets/70855458/66cc7fed-6059-49e0-94c1-d8dc805ccc4d)
-
-
 https://github.com/ShivamGupta92/Retinacare/assets/70855458/0ebcc8e0-45cc-4415-9a5b-5d44b820b035
 
 ## How It Addresses Real-World Problems
@@ -61,7 +55,7 @@ We're motivated by the desire to improve public health, especially for those wit
 - Frontend: HTML, CSS, JavaScript
 - Backend: Python, Flask
 - Machine Learning: Inception ResNet V2, PyTorch, Scikit-Learn, TensorFlow
-- Deployment: Docker, Heroku, Vercel
+- Deployment: Vercel
 
 ## Write Us
 
